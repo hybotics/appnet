@@ -1,5 +1,5 @@
-go-appnet
-=========
+appnet
+======
 
 Go interface to the App.net API - forked from github.com/whee/adn
 
@@ -10,7 +10,7 @@ Installation
 
 The usual:
 
-	$ go get bitbucket.org/hybotics/go-appnet
+	$ go get bitbucket.org/hybotics/appnet
 
 Package documentation
 ---------------------
@@ -29,7 +29,7 @@ getpost.go:
 	import (
 		"flag"
 		"fmt"
-		"bitbucket.org/hybotics/go-appnet"
+		"bitbucket.org/hybotics/appnet"
 		"log"
 		"strconv"
 	)
